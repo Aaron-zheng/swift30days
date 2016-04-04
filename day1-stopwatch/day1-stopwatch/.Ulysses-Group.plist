@@ -4,14 +4,18 @@
 <dict>
 	<key>childOrder</key>
 	<array>
-		<string>day1-stopwatch</string>
+		<string>Base.lproj</string>
+		<string>Images.xcassets</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>
 	<key>sheetClusters</key>
 	<array>
 		<array>
-			<string>README.md</string>
+			<string>AppDelegate.swift</string>
+		</array>
+		<array>
+			<string>ViewController.swift</string>
 		</array>
 	</array>
 </dict>

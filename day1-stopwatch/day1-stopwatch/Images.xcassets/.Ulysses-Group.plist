@@ -4,15 +4,11 @@
 <dict>
 	<key>childOrder</key>
 	<array>
-		<string>day1-stopwatch</string>
+		<string>AppIcon.appiconset</string>
+		<string>play.imageset</string>
+		<string>stop.imageset</string>
 	</array>
 	<key>createMarkedFile</key>
 	<false/>
-	<key>sheetClusters</key>
-	<array>
-		<array>
-			<string>README.md</string>
-		</array>
-	</array>
 </dict>
 </plist>
