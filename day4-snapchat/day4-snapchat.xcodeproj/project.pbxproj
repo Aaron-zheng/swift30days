@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A019A35E1CB7C1D300E25B7D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019A35D1CB7C1D300E25B7D /* CameraView.swift */; };
-		A019A3601CB7C1F000E25B7D /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A019A35F1CB7C1F000E25B7D /* CameraView.xib */; };
 		A07B03F81CB648B000F52A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B03F71CB648B000F52A3C /* AppDelegate.swift */; };
 		A07B03FA1CB648B000F52A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B03F91CB648B000F52A3C /* ViewController.swift */; };
 		A07B03FD1CB648B000F52A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07B03FB1CB648B000F52A3C /* Main.storyboard */; };
@@ -17,6 +15,8 @@
 		A07B040E1CB648B100F52A3C /* day4_snapchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B040D1CB648B100F52A3C /* day4_snapchatTests.swift */; };
 		A07B04181CB64B7A00F52A3C /* RightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A07B04171CB64B7A00F52A3C /* RightView.xib */; };
 		A07B041A1CB64C3D00F52A3C /* RightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B04191CB64C3D00F52A3C /* RightView.swift */; };
+		A0DB712B1CB8E03600255748 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DB712A1CB8E03600255748 /* CameraView.swift */; };
+		A0DB712D1CB8E0A800255748 /* CameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DB712C1CB8E0A800255748 /* CameraView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A019A35D1CB7C1D300E25B7D /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		A019A35F1CB7C1F000E25B7D /* CameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
 		A07B03F21CB648B000F52A3C /* day4-snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day4-snapchat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07B03F61CB648B000F52A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A07B03F71CB648B000F52A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +42,8 @@
 		A07B040D1CB648B100F52A3C /* day4_snapchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day4_snapchatTests.swift; sourceTree = "<group>"; };
 		A07B04171CB64B7A00F52A3C /* RightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightView.xib; sourceTree = "<group>"; };
 		A07B04191CB64C3D00F52A3C /* RightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightView.swift; sourceTree = "<group>"; };
+		A0DB712A1CB8E03600255748 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		A0DB712C1CB8E0A800255748 /* CameraView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +93,8 @@
 				A07B03F51CB648B000F52A3C /* Supporting Files */,
 				A07B04171CB64B7A00F52A3C /* RightView.xib */,
 				A07B04191CB64C3D00F52A3C /* RightView.swift */,
-				A019A35D1CB7C1D300E25B7D /* CameraView.swift */,
-				A019A35F1CB7C1F000E25B7D /* CameraView.xib */,
+				A0DB712A1CB8E03600255748 /* CameraView.swift */,
+				A0DB712C1CB8E0A800255748 /* CameraView.xib */,
 			);
 			path = "day4-snapchat";
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 			files = (
 				A07B03FD1CB648B000F52A3C /* Main.storyboard in Resources */,
 				A07B04021CB648B000F52A3C /* LaunchScreen.xib in Resources */,
-				A019A3601CB7C1F000E25B7D /* CameraView.xib in Resources */,
+				A0DB712D1CB8E0A800255748 /* CameraView.xib in Resources */,
 				A07B03FF1CB648B000F52A3C /* Images.xcassets in Resources */,
 				A07B04181CB64B7A00F52A3C /* RightView.xib in Resources */,
 			);
@@ -229,7 +229,7 @@
 				A07B03FA1CB648B000F52A3C /* ViewController.swift in Sources */,
 				A07B03F81CB648B000F52A3C /* AppDelegate.swift in Sources */,
 				A07B041A1CB64C3D00F52A3C /* RightView.swift in Sources */,
-				A019A35E1CB7C1D300E25B7D /* CameraView.swift in Sources */,
+				A0DB712B1CB8E03600255748 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

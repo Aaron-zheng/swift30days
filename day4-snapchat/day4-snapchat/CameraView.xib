@@ -6,8 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraView" customModule="day4_snapchat" customModuleProvider="target">
             <connections>
-                <outlet property="cameraView" destination="iN0-l3-epB" id="U8c-KM-IgE"/>
-                <outlet property="view" destination="x0M-KB-Rk5" id="MIJ-ab-vOv"/>
+                <outlet property="cameraView" destination="xWj-Gw-6Oq" id="wOa-fe-7VH"/>
+                <outlet property="imageView" destination="7ku-a3-XCQ" id="pYW-37-Tel"/>
+                <outlet property="view" destination="iN0-l3-epB" id="G9B-8c-so5"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -15,29 +16,21 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x0M-KB-Rk5">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xWj-Gw-6Oq">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pzu-Jd-dn1">
-                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ku-a3-XCQ">
+                    <rect key="frame" x="-4" y="0.0" width="608" height="600"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="Pzu-Jd-dn1" secondAttribute="centerY" id="0AM-sa-GoZ"/>
-                <constraint firstItem="Pzu-Jd-dn1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0jS-od-oeX"/>
-                <constraint firstItem="x0M-KB-Rk5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="18c-QY-tk1"/>
-                <constraint firstAttribute="centerX" secondItem="Pzu-Jd-dn1" secondAttribute="centerX" id="1Yl-5Z-HDi"/>
-                <constraint firstItem="x0M-KB-Rk5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Td-MT-rNN"/>
-                <constraint firstAttribute="trailing" secondItem="x0M-KB-Rk5" secondAttribute="trailing" id="658-HA-4RW"/>
-                <constraint firstAttribute="trailing" secondItem="Pzu-Jd-dn1" secondAttribute="trailing" id="7iu-Ir-9J5"/>
-                <constraint firstAttribute="bottom" secondItem="Pzu-Jd-dn1" secondAttribute="bottom" id="Kr9-bA-vEw"/>
-                <constraint firstAttribute="centerY" secondItem="x0M-KB-Rk5" secondAttribute="centerY" id="Xub-AT-HaM"/>
-                <constraint firstAttribute="centerX" secondItem="x0M-KB-Rk5" secondAttribute="centerX" id="guU-LJ-Gm5"/>
-                <constraint firstItem="Pzu-Jd-dn1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kET-fl-GBS"/>
+                <constraint firstAttribute="trailing" secondItem="xWj-Gw-6Oq" secondAttribute="trailing" id="7cT-Y4-LU7"/>
+                <constraint firstAttribute="centerX" secondItem="xWj-Gw-6Oq" secondAttribute="centerX" id="Brn-nT-PYb"/>
+                <constraint firstItem="xWj-Gw-6Oq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KWc-nG-EMO"/>
+                <constraint firstItem="xWj-Gw-6Oq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="x5p-oT-Mye"/>
+                <constraint firstAttribute="centerY" secondItem="xWj-Gw-6Oq" secondAttribute="centerY" id="zcT-Ee-PdI"/>
             </constraints>
-            <point key="canvasLocation" x="312" y="359"/>
         </view>
     </objects>
 </document>

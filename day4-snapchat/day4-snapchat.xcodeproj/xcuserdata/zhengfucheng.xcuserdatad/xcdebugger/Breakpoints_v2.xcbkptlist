@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "day4-snapchat/CameraView.swift"
-            timestampString = "481805905.147458"
+            timestampString = "481886888.614392"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "CameraView"
             landmarkType = "3">
          </BreakpointContent>

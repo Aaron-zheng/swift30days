@@ -16,11 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CRc-f9-k64">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CRc-f9-k64">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="CRc-f9-k64" secondAttribute="centerY" id="2dM-Vo-4Vj"/>
+                            <constraint firstAttribute="centerX" secondItem="CRc-f9-k64" secondAttribute="centerX" id="7MJ-Wl-TXO"/>
+                            <constraint firstAttribute="height" secondItem="CRc-f9-k64" secondAttribute="height" id="C6H-zU-FKB"/>
+                            <constraint firstAttribute="width" secondItem="CRc-f9-k64" secondAttribute="width" id="FzA-Oy-mNF"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="CRc-f9-k64" id="NHX-Cb-DtF"/>

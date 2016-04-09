@@ -29,10 +29,6 @@ class ViewController: UIViewController {
         cameraViewFrame.origin.x = self.view.frame.width
         cameraView.view.frame = cameraViewFrame
         
-//        var rightViewFrame: CGRect = rightView.view.frame
-//        rightViewFrame.origin.x = 2 * self.view.frame.width
-//        rightView.view.frame = rightViewFrame
-        
         self.scrollView.contentSize = CGSizeMake(self.view.frame.width * 2, self.view.frame.height)
         
     }
