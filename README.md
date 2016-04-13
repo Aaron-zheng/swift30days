@@ -10,3 +10,5 @@ This is Aaron from south of China - Guangzhou. I am a backend developer and  lea
 
 ## Reach me
 email: fucheng.zheng@gmail.com
+
+[day1-stopwatch](https://github.com/Aaron-zheng/swift30days/blob/master/screen/day1.gif)
