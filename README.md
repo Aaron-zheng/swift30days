@@ -11,24 +11,31 @@ This is Aaron from south of China - Guangzhou. I am a backend developer and  lea
 # Reach me
 email: fucheng.zheng@gmail.com
 
-- Day1-stopwatch
+# Screen
+- Day1
 
 ![Alt text](https://raw.githubusercontent.com/Aaron-zheng/swift30days/master/screen/day1.gif)
 
-day2-customfont
+- Day2
+
 ![Alt text](https://raw.githubusercontent.com/Aaron-zheng/swift30days/master/screen/day2.gif)
 
-day3-playvideo
+- Day3
+
 ![Alt text](https://raw.githubusercontent.com/Aaron-zheng/swift30days/master/screen/day3.gif)
 
-day4-snapchat
+- Day4
+
 ![Alt text](https://raw.githubusercontent.com/Aaron-zheng/swift30days/master/screen/day4.gif)
 
-day5-carousel
+- Day5
+
 ![Alt text](https://raw.githubusercontent.com/Aaron-zheng/swift30days/master/screen/day5.gif)
 
-day6-location
+- Day6
+
 ![Alt text](https://raw.githubusercontent.com/Aaron-zheng/swift30days/master/screen/day6.gif)
 
-day7-pullinfo
+- Day7
+
 ![Alt text](https://raw.githubusercontent.com/Aaron-zheng/swift30days/master/screen/day7.gif)
