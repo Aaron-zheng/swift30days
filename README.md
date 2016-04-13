@@ -8,10 +8,10 @@ This is Aaron from south of China - Guangzhou. I am a backend developer and  lea
 - Swift 1.1 
 - Xcode 6.1.1
 
-## Reach me
+# Reach me
 email: fucheng.zheng@gmail.com
 
-day1-stopwatch
+- Day1-stopwatch
 ![Alt text](https://raw.githubusercontent.com/Aaron-zheng/swift30days/master/screen/day1.gif)
 
 day2-customfont
