@@ -32,10 +32,16 @@ class ViewController: UIViewController {
         
         let bgMusic = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Ecstasy", ofType: "mp3")!)
         
-        AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, error: nil)
-        AVAudioSession.sharedInstance().setActive(true, error: nil)
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        } catch _ {
+        }
+        do {
+            try AVAudioSession.sharedInstance().setActive(true)
+        } catch _ {
+        }
         
-        audioPlayer = AVAudioPlayer(contentsOfURL: bgMusic, error: nil)
+        audioPlayer = try! AVAudioPlayer(contentsOfURL: bgMusic)
         audioPlayer.prepareToPlay()
         audioPlayer.play()
         

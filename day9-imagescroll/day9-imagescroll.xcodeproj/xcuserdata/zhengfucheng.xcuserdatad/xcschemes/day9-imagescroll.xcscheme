@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A048DB6B1CBD0C6100C458A1"
-               BuildableName = "day8-randomcolor.app"
-               BlueprintName = "day8-randomcolor"
-               ReferencedContainer = "container:day8-randomcolor.xcodeproj">
+               BlueprintIdentifier = "A02113961CBE59CC0095211D"
+               BuildableName = "day9-imagescroll.app"
+               BlueprintName = "day9-imagescroll"
+               ReferencedContainer = "container:day9-imagescroll.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A048DB801CBD0C6200C458A1"
-               BuildableName = "day8-randomcolorTests.xctest"
-               BlueprintName = "day8-randomcolorTests"
-               ReferencedContainer = "container:day8-randomcolor.xcodeproj">
+               BlueprintIdentifier = "A02113AB1CBE59CD0095211D"
+               BuildableName = "day9-imagescrollTests.xctest"
+               BlueprintName = "day9-imagescrollTests"
+               ReferencedContainer = "container:day9-imagescroll.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A048DB801CBD0C6200C458A1"
-               BuildableName = "day8-randomcolorTests.xctest"
-               BlueprintName = "day8-randomcolorTests"
-               ReferencedContainer = "container:day8-randomcolor.xcodeproj">
+               BlueprintIdentifier = "A02113AB1CBE59CD0095211D"
+               BuildableName = "day9-imagescrollTests.xctest"
+               BlueprintName = "day9-imagescrollTests"
+               ReferencedContainer = "container:day9-imagescroll.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A048DB6B1CBD0C6100C458A1"
-            BuildableName = "day8-randomcolor.app"
-            BlueprintName = "day8-randomcolor"
-            ReferencedContainer = "container:day8-randomcolor.xcodeproj">
+            BlueprintIdentifier = "A02113961CBE59CC0095211D"
+            BuildableName = "day9-imagescroll.app"
+            BlueprintName = "day9-imagescroll"
+            ReferencedContainer = "container:day9-imagescroll.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A048DB6B1CBD0C6100C458A1"
-            BuildableName = "day8-randomcolor.app"
-            BlueprintName = "day8-randomcolor"
-            ReferencedContainer = "container:day8-randomcolor.xcodeproj">
+            BlueprintIdentifier = "A02113961CBE59CC0095211D"
+            BuildableName = "day9-imagescroll.app"
+            BlueprintName = "day9-imagescroll"
+            ReferencedContainer = "container:day9-imagescroll.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -98,10 +98,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A048DB6B1CBD0C6100C458A1"
-            BuildableName = "day8-randomcolor.app"
-            BlueprintName = "day8-randomcolor"
-            ReferencedContainer = "container:day8-randomcolor.xcodeproj">
+            BlueprintIdentifier = "A02113961CBE59CC0095211D"
+            BuildableName = "day9-imagescroll.app"
+            BlueprintName = "day9-imagescroll"
+            ReferencedContainer = "container:day9-imagescroll.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -5,8 +5,13 @@ This is Aaron from south of China - Guangzhou. I am a backend developer and  lea
 [30DaysofSwift](https://github.com/allenwong/30DaysofSwift)
 
 # Version
-- Swift 1.1 
+Day1 - Day7
 - Xcode 6.1.1
+- Swift 1.1 
+
+Day8 - Day30
+- Xcode 7.2.1
+- Swift 2.1.1
 
 # Reach me
 email: fucheng.zheng@gmail.com
