@@ -14,7 +14,8 @@ Day8 - Day30
 - Swift 2.1.1
 
 # Reach me
-email: fucheng.zheng@gmail.com
+Email: fucheng.zheng@gmail.com
+Blog: http://www.sightcorner.com
 
 # Screen
 - Day1
