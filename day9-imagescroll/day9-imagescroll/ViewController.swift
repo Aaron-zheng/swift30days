@@ -12,7 +12,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     
     var imageView: UIImageView!
     var scrollView: UIScrollView!
-    
+
+    /*
     private func setZoomScaleFor(scrollViewSize: CGSize) {
         let imageSize = imageView.bounds.size
         let widthScale = scrollViewSize.width / imageSize.width
@@ -22,12 +23,21 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.minimumZoomScale = minimunScale
         scrollView.maximumZoomScale = 3.0
     }
+    */
+    
     
     private func recenterImage() {
         let scrollViewSize = scrollView.bounds.size
+//        print(scrollViewSize)
         let imageViewSize = imageView.frame.size
+//        print(imageViewSize)
+        let halfhorizontalSpace = imageViewSize.width < scrollViewSize.width ? (scrollViewSize.width - imageViewSize.width) / 2.0 : 0.0
+        let halfverticalSpace = imageViewSize.height < scrollViewSize.height ? (scrollViewSize.height - imageViewSize.height) / 2.0 : 0.0
+        
+        scrollView.contentInset = UIEdgeInsetsMake(halfverticalSpace, halfhorizontalSpace, halfverticalSpace, halfhorizontalSpace)
         
     }
+    
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent
@@ -39,16 +49,16 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         imageView = UIImageView(image: UIImage(named: "apple"))
         
         scrollView = UIScrollView(frame: self.view.bounds)
-        scrollView.autoresizingMask = UIViewAutoresizing()
-        scrollView.backgroundColor = UIColor.clearColor()
-        scrollView.contentSize = imageView.bounds.size
+//                scrollView.backgroundColor = UIColor.clearColor()
+//        scrollView.autoresizingMask = [UIViewAutoresizing.FlexibleWidth, UIViewAutoresizing.FlexibleHeight]
+//        scrollView.contentSize = imageView.bounds.size
         scrollView.addSubview(imageView)
         scrollView.delegate = self
+        scrollView.minimumZoomScale = 0.5
+        scrollView.maximumZoomScale = 2
         view.addSubview(scrollView)
         
-        setZoomScaleFor(scrollView.bounds.size)
         scrollView.zoomScale = scrollView.minimumZoomScale
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,6 +66,12 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func scrollViewDidZoom(scrollView: UIScrollView) {
+        self.recenterImage()
+    }
+    
+    func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
+        return self.imageView
+    }
 }
 
